@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/lapin" />
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/numTextView"
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:background="#c3e8ff"
+            android:paddingLeft="9dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="132dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="Yousrah"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="73dp"
+            android:layout_height="41dp"
+            android:layout_margin="16dp"
+            android:text="123"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+
+</LinearLayout>

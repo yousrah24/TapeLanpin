@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c3e8ff"
+    tools:context=".controller.GameActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="411dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:contentDescription="logo"
+            android:src="@drawable/tape" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:padding="10dp"
+            android:text="Tapes le lapin pour le trouver"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:text="Nombre de clics réussie :"
+            android:textSize="17dp"
+            android:textColor="#398539" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="17dp"
+            android:text="Nombre de clics ratés"
+            android:textColor="#853939" />
+
+        <TextView
+            android:id="@+id/manche"
+            android:typeface="monospace"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="manche"
+            />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="qui suis je"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="qui suis je"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="qui suis je"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lapin"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lapin"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lapin"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"
+                    android:text="lapin" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lapin"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lapin"
+                    tools:layout_editor_absoluteX="27dp"
+                    tools:layout_editor_absoluteY="564dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#c3e8ff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/black"
+            android:text="Abandonner la partie" />
+    </LinearLayout>
+
+
+</LinearLayout>
